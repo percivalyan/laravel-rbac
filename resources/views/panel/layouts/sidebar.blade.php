@@ -50,7 +50,7 @@
 
                 @if (!empty($PermissionCategory))
                     <li class="pc-item">
-                        <a href="{{ url('panel/category') }}"
+                        <a href="{{ route('categories.index') }}"
                             class="pc-link @if (Request::segment(2) != 'category') collapsed @endif">
                             <span class="pc-micon"><i class="ti ti-tag"></i></span>
                             <span class="pc-mtext">Category</span>
