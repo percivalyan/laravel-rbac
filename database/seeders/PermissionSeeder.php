@@ -23,6 +23,7 @@ class PermissionSeeder extends Seeder
             ['name' => 'Add Category', 'slug' => 'Add Category', 'groupby' => 3],
             ['name' => 'Edit Category', 'slug' => 'Edit Category', 'groupby' => 3],
             ['name' => 'Delete Category', 'slug' => 'Delete Category', 'groupby' => 3],
+            ['name' => 'Show Category', 'slug' => 'Show Category', 'groupby' => 3],
             ['name' => 'Sub Category', 'slug' => 'Sub Category', 'groupby' => 4],
             ['name' => 'Add Sub Category', 'slug' => 'Add Sub Category', 'groupby' => 4],
             ['name' => 'Edit Sub Category', 'slug' => 'Edit Sub Category', 'groupby' => 4],
